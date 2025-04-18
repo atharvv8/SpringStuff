@@ -7,11 +7,12 @@
     <!-- bean definitions here -->
     <bean id="alien1" class="org.example.Alien" >
         <property name="age" value="22"></property>
+        <property name="lap" ref="lapObj"></property>
     </bean>
 
     <!--    <bean id="alien2" class="org.example.Alien"></bean>-->
 
-<!--    <bean id="lap" class="org.example.Laptop"></bean>-->
+    <bean id="lapObj" class="org.example.Laptop"></bean>
 
 
 
