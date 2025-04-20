@@ -17,7 +17,7 @@ public class App
 //        Desktop dt1 = context.getBean("desktop1",Desktop.class);
 //        dt1.compile();
 
-        // they are two reference varaibles for a single object.. because by default it is singleton
+        // they are two reference variables for a single object.. because by default it is singleton
 
         // What if you want to create two different objects?
         // In that case, go to appConfig class and use scope(value = "prototype")
